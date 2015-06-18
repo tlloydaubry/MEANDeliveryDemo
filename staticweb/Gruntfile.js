@@ -586,7 +586,7 @@ module.exports = function ( grunt ) {
           replacements: [
         {
           pattern: '$SERVER_API_ROOT',
-          replacement:'http://tlademo-eb-qa-env.elasticbeanstalk.com '
+          replacement: 'http://tlademo-eb-qa-env.elasticbeanstalk.com/'
         }
         ]
       }
@@ -599,7 +599,7 @@ module.exports = function ( grunt ) {
           replacements: [
             {
               pattern: '$SERVER_API_ROOT',
-              replacement:'http://tlademo-eb-prod-env.elasticbeanstalk.com'
+              replacement: 'http://tlademo-eb-prod-env.elasticbeanstalk.com'
             }
           ]
         }
